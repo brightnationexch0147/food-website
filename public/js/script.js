@@ -98,7 +98,7 @@ const updateSliderPos = function () {
   lastActiveSliderItem = heroSliderItems[currentSlidePos];
 }
 
-const slideNext = function () {//
+const slideNext = function () {
   if (currentSlidePos >= heroSliderItems.length - 1) {
     currentSlidePos = 0;
   } else {

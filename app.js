@@ -12,5 +12,5 @@ const PORT = 4020;
 app.use('/', require('./routes/main'))
 
 app.listen(PORT, () => {
-    console.log(`app is listening on PORT http://localhost${PORT}`);
+    console.log(`app is listening on PORT http://localhost:${PORT}`);
 });
